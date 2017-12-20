@@ -1,0 +1,84 @@
+@import 'variables';
+#main-header {
+    height: 100vh;
+    background-image: url('../img/background.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    .container {
+        width: 90%;
+        margin: 0 auto;
+        .floated {
+            display: inline-block;
+            &.right {
+                float: right;
+                color: #FFF;
+                width: 16%;
+                i {
+                    float: left;
+                    line-height: 83px;
+                    margin-right: 5px;
+                }
+                p {
+                    font-family: $openSans;
+                }
+            }
+            &.left {
+                float: left;
+                .fa {
+                    color: $zolty;
+                }
+                h3 {
+                    display: inline-block;
+                    color: #FFF;
+                    text-transform: capitalize;
+                    font-size: 30px;
+                    font-family: $openSans;
+                }
+            }
+        }
+    }
+    #div-form {
+        position: absolute;
+        right: 10%;
+        width: 30%;
+        bottom: 5%;
+        h3 {
+            color: #FFF;
+            font-family: $openSans;
+            font-size: 22px;
+            span {
+                color: $zolty;
+            }
+        }
+        form {
+            background-color: $niebieski;
+            padding: 10px;
+            p {
+                font-family: $openSans;
+                color: #FFF;
+            }
+            input,
+            textarea {
+                width: 100%;
+                padding: 5px;
+                margin-bottom: 5px;
+                box-sizing: border-box;
+            }
+            input[type="submit"] {
+                background-color: $zolty;
+                border: 1px solid $zolty;
+                color: #000;
+                width: 25%;
+                line-height: 40px;
+                transition: all 0.4s;
+                
+                &:hover {
+                    background-color: #FFF;
+                    color: $zolty;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,33 @@
+@import 'variables';
+
+#footer {
+    background-color: $szary;
+    font-family: $openSans;
+    color: #FFF;
+    padding: 20px 0;
+    
+    .floated {
+        width: 50%;
+        float: left;
+        text-align: center;
+        padding: 10px 0;
+        
+        .fa {
+            height: 40px;
+            width: 40px;
+            line-height: 40px;
+            background-color: $zolty;
+            color: $szary;
+            margin-bottom: 20px;
+        }
+    }
+    
+    .clear {
+        clear: both;
+    }
+    
+    p {
+        margin: 0;
+        text-align: center;
+    }
+}

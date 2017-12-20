@@ -1,0 +1,22 @@
+#footer {
+  background-color: #292929;
+  font-family: "open-sans", sans-serif;
+  color: #FFF;
+  padding: 20px 0; }
+  #footer .floated {
+    width: 50%;
+    float: left;
+    text-align: center;
+    padding: 10px 0; }
+    #footer .floated .fa {
+      height: 40px;
+      width: 40px;
+      line-height: 40px;
+      background-color: #ecd407;
+      color: #292929;
+      margin-bottom: 20px; }
+  #footer .clear {
+    clear: both; }
+  #footer p {
+    margin: 0;
+    text-align: center; }
